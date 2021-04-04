@@ -11,7 +11,7 @@ namespace SkipIntro
     public class Mod : IUserMod
     {
         private readonly string _harmonyId = "egi.citiesskylinesmods.skipintro";
-        private HarmonyInstance _harmony;
+        private HarmonyInstance? _harmony;
 
         public string Name => "Skip Intro";
         public string Description => "Skips the two logos during game start.";
