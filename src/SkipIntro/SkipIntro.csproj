@@ -5,7 +5,7 @@
 		<Product>SkipIntro</Product>
 		<Description>Skips the two logos during game start.</Description>
 		<Copyright>MIT</Copyright>
-		<Version>1.3.0</Version>
+		<Version>1.3.1</Version>
 	</PropertyGroup>
 	<PropertyGroup>
 		<AssemblyTitle>SkipIntro</AssemblyTitle>
@@ -23,7 +23,7 @@
 		<CslMangedDllsPath>$(CslPath)\Cities_Data\Managed</CslMangedDllsPath>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="CitiesHarmony.API" Version="2.0.0" />
+		<PackageReference Include="CitiesHarmony.API" Version="2.2.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp">
